@@ -13,11 +13,31 @@
     border-radius: 5px;
 }
 .carro{
+    width: 200%;
     border: 3px solid #008;
     background-color: #8cf;
     padding: 5px;
     border-radius: 5px;
     display: flex;
-    width: 200%;
+    flex-direction: column;
+ 
 
+}
+.campoForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.campoForm input{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.campoForm button{
+    background-color: #888;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
 }
